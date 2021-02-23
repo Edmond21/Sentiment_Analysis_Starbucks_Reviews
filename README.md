@@ -23,9 +23,7 @@ Several packages are required to run this sentiment analysis
 for data wrangling
 
 library(tidyr)
-
 library(margrittr)
-
 library(dplyr)
 
 
