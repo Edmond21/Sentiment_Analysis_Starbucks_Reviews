@@ -21,7 +21,7 @@ Altered File: Starbucks_satisfactory_survey1.csv
 Several packages are required to run this sentiment analysis
 
 
-for data wrangling
+#### For data wrangling
 
 library(tidyr)
 
@@ -31,15 +31,15 @@ library(dplyr)
 
 
 
-for sentiment analysis
+#### For sentiment analysis
 
 library(tidytext)
 
 
 
-for visualization
+#### For visualization
 
 library(ggplot2)
 
 
-The code and instructions for replicating this sentiment analysis will be in a different document.
+*The code and instructions for replicating this sentiment analysis will be in a different document.
