@@ -4,7 +4,7 @@
 ## INTRODUCTION
 
 
-This project will provide all the code necessary to replicate the results.  The data used was found on kaggle.com and created by Mahira Hamzah.  The reviews from the data are from Malyasia, which is why the income is shown in Malyasian Ringgit (RM).  I changed the original data by changing the column titles.  However, the column titles could have been changed through R by using the fix function.
+This project will provide all the code necessary to replicate the results.  The data used was found on kaggle.com and created by Mahira Hamzah.  The reviews are from Malyasia, which is why the income is shown in Malyasian Ringgit (RM).  I changed the original data by changing the column titles.  However, the column titles could have been changed through R by using the fix function.
 
 
 ## CONTENT
