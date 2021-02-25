@@ -25,7 +25,7 @@ Several packages are required to run this sentiment analysis
 
 library(tidyr)
 
-library(margrittr)
+library(magrittr)
 
 library(dplyr)
 
