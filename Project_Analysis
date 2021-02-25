@@ -1,7 +1,49 @@
-#Starbucks Sentiment Analysis
-
-The most notable aspect of the survey were the ratings since they were quantifiable.  People were asked to rate specific aspects of their 
+Starbucks Sentiment Analysis
 
 > # Upload packages
 > library(tidyr)
-> 
+> library(magrittr)
+> library(dplyr)
+> library(tidyverse)
+> library(ggplot2)
+
+> # Upload and name csv file 
+> data <- read.csv("C:\\Users\\jacob\\OneDrive\\Desktop\\Starbucks_Sentiment_Analysis\\archive\\Starbucks_satisfactory_survey1.csv")
+
+> # List all collumn names
+> colnames(data)
+> [1] "Timestamp"                                
+> [2] "Gender"                                   
+> [3] "Age"                                      
+> [4] "Employment_Status"                        
+> [5] "Income"                                   
+> [6] "Frequency_Visited"                        
+> [7] "Dine_in.Take_away"                        
+> [8] "Time_Spent"                               
+> [9] "Nearest_Location"                         
+> [10] "Membership"                               
+> [11] "Frequent_Drink_Purchased"                 
+> [12] "Money_Spent"                              
+> [13] "Rating_Compared_to_Other_Brands"          
+> [14] "Price_Rating"                             
+> [15] "Importance_of_Sales_and_Promotions"       
+> [16] "Rating_of_Ambiance"                       
+> [17] "WiFi_Quality"                             
+> [18] "Service_Rating"                           
+> [19] "Location_for_Business_Meeting.Hanging_Out"
+> [20] "Notification_of_Promotions"               
+> [21] "Will_Continue_Patronage"                  
+
+> # Select data with ratings
+> ratings <- select(data,13:19)
+
+> # Check to see if proper data was selected
+> colnames(ratings)
+> [1] "Rating_Compared_to_Other_Brands"          
+> [2] "Price_Rating"                             
+> [3] "Importance_of_Sales_and_Promotions"       
+> [4] "Rating_of_Ambiance"                       
+> [5] "WiFi_Quality"                             
+> [6] "Service_Rating"                           
+> [7] "Location_for_Business_Meeting.Hanging_Out"
+
