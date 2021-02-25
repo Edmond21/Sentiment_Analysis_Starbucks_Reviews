@@ -1,0 +1,7 @@
+# Starbucks Sentiment Analysis
+
+The most notable aspect of the survey were the ratings since they were quantifiable.  People were asked to rate specific aspects of their 
+
+> # Upload packages
+> library(tidyr)
+> 
