@@ -36,3 +36,5 @@ Ratings_Plot <- ratings %>%
 
 #Changed the headers and added a title for the bar plot
 print(Ratings_Plot + labs(title = "Starbucks Cumulative Survey Ratings", y = "Ratings (1-5)", x = "Survey Question") + theme(plot.title = element_text(hjust = 0.5, size = 14, face = "bold")))
+
+#Graph is in PDF file
