@@ -33,7 +33,7 @@ library(dplyr)
 
 #### For sentiment analysis
 
-library(tidytext)
+library(tidy)
 
 
 
