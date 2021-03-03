@@ -1,3 +1,7 @@
+```{r global_options, include = FALSE}
+knitr::opts_chunk$set(message=FALSE, 
+tidy.opts=list(width.cutoff=60)) 
+```
 ## Starbucks Sentiment Analysis Write Up
 ## Ratings Analysis
 ![Ratings_Plot](https://user-images.githubusercontent.com/78123049/109853876-3e801d00-7c0b-11eb-90ce-b9250bb694f8.png)
